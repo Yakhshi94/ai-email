@@ -24,3 +24,10 @@ export const POST = async (req: Request) => {
 
     return  NextResponse.json('Clerk data received', {status: 200})
 }
+
+
+export const GET = async () => {
+    const userData = await db.user.findMany()
+
+    return NextResponse.json(userData, {status: 201})
+}

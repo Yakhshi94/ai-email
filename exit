@@ -1,0 +1,17 @@
+[33mcommit 08465efc8314a77e749f1a0de5505007b610c7f5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Yakhshi94 <esmatullahsatari@gmail.com>
+Date:   Sun Nov 10 17:34:02 2024 +0430
+
+    ignore type errors'
+
+[33mcommit 25ae2f3b4c62fb292388ffcf777ea59a80bc721e[m
+Author: Yakhshi94 <esmatullahsatari@gmail.com>
+Date:   Sun Nov 10 17:27:37 2024 +0430
+
+    Clerk, Prisma, NeonDB, postqrsql, ngrok, clerk-wekhook setup
+
+[33mcommit 0c26759c36b23a716d2a5c67b479a461b3f3d90a[m
+Author: Yakhshi94 <esmatullahsatari@gmail.com>
+Date:   Sat Nov 9 15:04:59 2024 +0430
+
+    Initial commit
