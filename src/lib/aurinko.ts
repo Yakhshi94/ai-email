@@ -12,8 +12,8 @@ export const getAurinkoAuthUrl = async (serviceType: 'Google' | 'Office365') => 
         serviceType,
         scopes: 'Mail.Read Mail.ReadWrite Mail.Send Mail.Drafts Mail.All',
         responseType: 'code',
-        returnUrl: `https://ai-email-neon.vercel.app/api/aurinko/callback`,
+        returnUrl: `http://ai-email-neon.vercel.app/api/aurinko/callback`,
     })  
 
-    return `https://api.aurinko.io/v1/auth/authorize?${params.toString()}`
+    return `http://api.aurinko.io/v1/auth/authorize?${params.toString()}`
 }
