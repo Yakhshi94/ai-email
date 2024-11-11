@@ -9,6 +9,5 @@ export const GET = async (req: NextRequest) => {
     const params = req.nextUrl.searchParams
     const status = params.get('status')
     if(status !== 'success') return NextResponse.json({message: 'Failed to link account'}, {status: 401})
-    console.log(params)
 
 }
